@@ -1,0 +1,217 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/4234.600x450.jpg','imagenes/1862-Mayo5a.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Día de la Tierra</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+       <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:300px;height:110px;max-width:90%;max-height:50%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>¿Qué es el Día de la Tierra?</h1>
+        <div>
+        <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','imagenes/5demayo.jpg',1)"><img src="imagenes/Captura-de-pantalla-2013-09-27-a-las-20.04.20.png" width="150px" height="auto" id="Image1" align="right"/></a>El Cinco de Mayo es la fecha de la conmemoración de la Batalla de Puebla. Marca la primera vez que el ejército mexicano pudo derrotar a una potencia extranjera mejor preparada, en este caso los franceses. La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia.</p>
+        <br>
+        <p>Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano..
+        </p>
+        <br>
+        </div>
+  <div></div>
+  </div>
+ </div> 
+ 
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+       <h1>Origenes del conflicto</h1>
+        <div>
+        <p>
+        Después de los excesos de la dictadura santannista y las batallas de la guerra de Reforma, México se encontraba en bancarrota sin poder saldar sus deudas con los países acreedores. En 1862 las armadas de España, Inglaterra y Francia desembarcaron en Veracruz dispuestas a cobrar sus préstamos. Después de negociar con el representante de México España e Inglaterra se retiraron.
+        </p>
+        <br>
+        <p> Napoleón III, Emperador del Segundo Imperio Francés quería establecer una monarquía favorable para Francia, y asimismo, quería disolver el Gobierno Constitucional Mexicano.
+</p>
+<p><i>Si quieres saber más, haz Click en la imagen</i><br>
+        </p>
+        <p><a href="http://www.5demayopuebla.mx/historia.php"><img src="imagenes/official.png"" width="200px" height="auto" align="left"></a></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+        </div>
+  <div></div>
+  </div>
+ </div> 
+ 
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Historia</h2>
+          <p>¿Cómo ocurrio?</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>En Puebla</h2>
+          <p>Desfile</p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Los fuertes de Loreto y Guadalupe</h2>
+          <p>En la actualidad</p>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="a">
+    <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4><strong>Aplicación siete</strong></h4>
+      <h4><strong>5 de mayo</strong></h4>
+      <h4>García Sánchez Sara Belén</h4>
+    </div>
+  </div>
+</div>
+  
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Historia</h1>
+    
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        
+        <p>En abril de 1862 los franceses desembarcaron en el puerto de Veracruz, y emprendieron la campaña militar hacia el centro de la República. <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/1862-Mayo5a.jpg',1)"><img src="imagenes/sondeo_0405151.jpg" width="200px" height="137" id="Image2" align="right"/></a>Después de varios ataques y cientos de muertos el 5 de mayo de 1862 fue la batalla victoriosa que tuvo lugar en los alrededores de una iglesia usada como fortaleza en Acultzingo, en el límite de los estados de Veracruz y Puebla. El héroe de la primera batalla de Puebla fue el general Ignacio Zaragoza al mando de casi 2000 soldados y 2700 campesinos usando machetes, rifles tipo "mausser" y lanzas llamadas "chinacas" de madera con punta de metal. Los franceses usaban pistolas, carabinas tipo winchester con punta de metal, bayonetas, cañones y ametralladoras de 15 kg y de 1.50 mt. longitud. El informe que el general Zaragoza rindió sobre la Batalla de Puebla al Presidente Benito Juárez fue breve y significativo.</p>
+        <br>
+        <p><blockquote><cite>Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con soberbia, necedad y torpeza.</cite></blockquote></p>
+        <br>
+        <p>La primera victoria de México no duró mucho tiempo. Un año después, treinta y cinco mil tropas francesas lograron derrotar al ejército mexicano, y de esa forma Francia logró tomar control de la Ciudad de México e impusieron al austriaco Maximiliano de Habsburgo y su esposa Carlota como emperador y emperatriz de México. El emperador no sostuvo por mucho su imperio: la victoria de Francia duró sólo 3 años. En 1867, y debido a la conflictiva situación en Europa y a la presión de Estados Unidos, el emperador Napoleón III ordenó retirar el apoyo militar y económico a Maximiliano. Al mismo tiempo los republicanos mexicanos comenzaron a recibir respaldo financiero y diplomático estadounidense al concluir en aquel país la Guerra de Secesión, y el novel imperio comenzó a perder su endeble base social. Así las cosas, durante 1866 los republicanos fueron ganando importantes posiciones hasta dejar reducida el área de influencia imperial a Puebla y Veracruz. El 2 de abril de 1867, tropas encabezadas por el juarista Porfirio Díaz tomaron la ciudad de Puebla con lo que militarmente el imperio fue aniquilado. El emperador Maximiliano, para entonces sitiado en Querétaro, fue hecho prisionero y fusilado en un lugar llamado "El Cerro de las Campanas".</p>
+        <br>
+      </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a">
+    <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4><strong>Aplicación siete</strong></h4>
+      <h4><strong>Día de la tierra</strong></h4>
+      <h4>García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Curiosidades</h1>
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        <p><img src="imagenes/Mapa_2016.jpg" width="200px" height="auto" align="right"/>Para los Poblanos este es un día de fiesta. Por ende, se celebra un desfile por toda la ciudad, conmemorando las valientes acciones de nuestros antepasados en nombre de la patria. Como podran ver, mostramos su ruta.</p>
+        <br>
+        <div></div>
+      </div>
+  <div>
+  <p>&nbsp;</p>
+  <p>He aquí un ejemplo en vivo:</p>
+  <p>&nbsp;</p>
+<iframe width="210" height="157" src="https://www.youtube.com/embed/vsCpkVJC9nw" frameborder="0" allowfullscreen></iframe>
+<p>&nbsp;</p></div>
+
+ </div>
+ <div data-role="footer" align="center" data-theme="a">
+    <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4><strong>Aplicación siete</strong></h4>
+      <h4><strong>5 de mayo</strong></h4>
+      <h4>García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Temas</h1>
+    </div>
+    <div data-role="content" align="justify">
+      <div>
+        
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/Fuertes-Loreto-Guadalupe-son-1702703.jpg',1)"><img src="imagenes/Wikipuebla_0001.jpg" width="200px" height="137" id="Image5" align="right"/></a>Los fuertes de Loreto y Guadalupe son unas antiguas edificaciones militares que se encuentran en la ciudad de Puebla. Originalmente se trataba de capillas construidas en lo alto de un cerro Acueyametepec, que fueron reconstituidas a principios del siglo XIX como fortificaciones con finalidades militares. Sirvieron como escenario principal tanto en la batalla como en el sitio de Puebla, durante la Segunda Intervención Francesa en México. Declarados como patrimonio histórico de México, actualmente albergan museos de sitio.</p>
+        <br>
+        <h2 align="center">Sitios históricos</h2>
+        <br>
+        <p>En 1930 los fuertes y la zona aledaña al cerro fueron declarados propiedad de la nación al servicio al pueblo, y en Loreto se construyó un Museo de Guerra. En 1962, con motivo del centenario de la batalla, el museo se amplió y se dotó de servicios al área del parque. Actualmente, en la Zona Histórica de los Fuertes se ubican también un Museo Regional del Instituto Nacional de Antropología e Historia, el Auditorio de la Reforma y la Casa Puebla. Además, a un costado se ubica el Centro de Exposiciones de Puebla y un monumento donde reposan los restos de Ignacio Zaragoza y su esposa Rafaela Padilla.</p>
+        <br>
+      </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a">
+    <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4><strong>Aplicación siete</strong></h4>
+      <h4><strong>Día de la tierra</strong></h4>
+      <h4>García Sánchez Sara Belén</h4>
+    </div>
+   </div>
+  </div>
+  
+ 
+
+
+</body>
+ </html>
